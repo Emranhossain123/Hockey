@@ -668,7 +668,7 @@
         <!-- contact form -->
         <section class="container mx-auto">
 
-            <div class="flex  m-10">
+            <div class="flex m-10">
                 <div class="border-2 rounded-xl lg:w-[35vw]  lg:h-[150vh] w-full h-full ">
                     <div class="p-2 lg:p-10">
                         <div class="h-[216px] w-[220px] lg:w-[374px] rounded-xl bg-[#BCED6D1A]">
@@ -711,23 +711,43 @@
 
                 <!-- <div class="lg:col-span-1"> -->
 
-                <div class="grid ">
-                    <label for="">Your Name</label>
-                    <input type="text" placeholder="Enter your name" class="input input-border w-full">
+                <div class="grid grid-cols-2 px-10">
+                    <div>
+                        <label for=""><span class="text-xl font-bold mb-5">Your Name</span></label>
+                        <input type="text" placeholder="Enter your name"
+                            class="input input-border my-5 w-full bg-[#13131808] outline-none">
+                    </div>
 
-                    <label for="">Your E-mail</label>
-                    <input type="text" placeholder="Enter your email;" class="input input-border w-full">
+                    <div class="space-x-3">
 
-                    <label for="">Subject</label>
-                    <input type="text" placeholder="Enter your subject" class="input input-border w-full">
-                    <label for="">Phone Number</label>
-                    <input type="text" placeholder="Enter your phone number" class="input input-border w-full">
+                        <label for=""><span class="text-xl font-bold mb-5">Your E-mail</span></label>
+                        <input type="text" placeholder="Enter your email;"
+                            class="input input-border my-5 w-full  bg-[#13131808] outline-none">
+
+                    </div>
+
+                    <div>
+                        <label for=""><span class="text-xl font-bold mb-5">Subject</span></label>
+                        <input type="text" placeholder="Enter your subject"
+                            class="input input-border my-5 w-full bg-[#13131808] outline-none">
+                    </div>
+                    <div class="space-x-3">
+                        <label for=""><span class="text-xl font-bold mb-5">Phone Number</span></label>
+                        <input type="text" placeholder="Enter your phone number"
+                            class="input input-border my-5 w-full  bg-[#13131808] outline-none">
+                    </div>
+                    <div>
+                        <label for=""><span class="text-xl font-bold mb-5">Message</span></label>
+                        <textarea class="textarea w-[550px] h-[370px] my-5 bg-[#13131808] textarea-bordered"
+                            placeholder=""></textarea>
+                        <button
+                            class="h-[50px] w-[550px]  rounded-lg py-2 px-6 text-sm bg-[#FF4240] font-semibold text-white">Send
+                            Message</button>
+                        <!-- </div> -->
+                    </div>
+
                 </div>
-                <div>
-                    <label for="">Message</label>
-                    <textarea class="textarea w-full textarea-bordered" placeholder=""></textarea>
-                    <!-- </div> -->
-                </div>
+
 
 
                 <!-- <label for="">
@@ -735,7 +755,6 @@
                     <input type="text" placeholder="Enter your full name">
                 </label> -->
             </div>
-
 
 
 
